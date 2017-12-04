@@ -4,7 +4,7 @@ Creating simple RestFull Api with Node.js and Express Framework for example logi
 ## Running Application
 Import api.sql database on the local web server your computer.
 then run command localhost:3000/api/login using Postman application with method used is POST parameter (username and password).
-If successful response is displayed in the form of json with the following output
+If successful output will be displayed in json format.
 
 <pre>
 <code>
