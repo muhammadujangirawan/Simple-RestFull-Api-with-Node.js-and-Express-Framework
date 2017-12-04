@@ -11,11 +11,11 @@ If successful output will be displayed in json format.
  {
     "data": [
         {
-            "id": 2,
-            "username": "amandamiranty",
-            "fullname": "Amanda Miranty",
-            "faculty": "F01",
-            "department": "F01-KIA"
+            "id": 1,
+            "username": "ujangirawan",
+            "fullname": "Ujang Irawan",
+            "faculty": "T01",
+            "department": "T01-TI"
         }
     ]
 }
