@@ -13,7 +13,6 @@ If successful output will be displayed in json format.
         {
             "id": 2,
             "username": "amandamiranty",
-            "password": "f770d8ca71ae417a7b517bacb099877070198fec",
             "fullname": "Amanda Miranty",
             "faculty": "F01",
             "department": "F01-KIA"
