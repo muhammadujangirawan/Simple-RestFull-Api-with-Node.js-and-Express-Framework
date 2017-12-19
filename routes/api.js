@@ -9,10 +9,17 @@ module.exports.login = function(req,res){
 
         var query = connection.query('select * from tb_user where email = ? and password = ?', [email,password] , function(err, result){
 
-            if(err)
-              console.log("Error Selecting : %s ",err );
-                
-              res.status(200).json({data:result})
+            if (err) 
+            	  res.status(500).json(err);
+ 
+		    for (var i in result) {
+		        console.log(result[i]);
+		        res.status(200)
+		        .json({
+		        	status:'true',
+		        	data:result[i]
+		        })
+		    }
         })
     
     });
